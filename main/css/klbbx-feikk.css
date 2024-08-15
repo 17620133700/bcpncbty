@@ -1,0 +1,103 @@
+.hsTbSd {
+    position: relative;
+}
+
+.kCVCfQ {
+    background-color: var(--background-color-fill);
+    overflow: auto hidden;
+    scrollbar-width: none;
+}
+
+.kCVCfQ::before,
+.kCVCfQ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: var(--global-space-32);
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 350ms ease 0s;
+}
+
+
+.kCVCfQ::before {
+    left: 0px;
+    background-image: linear-gradient(to left, var(--background-color-transparent), var(--background-color-fill));
+    opacity: 0;
+}
+
+
+.jbqtqc {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+    width: fit-content;
+    margin: auto !important;
+}
+
+.wuDwR:first-child {
+    margin-left: auto;
+}
+
+.wuDwR {
+    display: block;
+}
+
+.cinyTP[aria-current="page"] {
+    color: var(--global-primary-action-default);
+}
+
+.cinyTP {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: var(--global-space-40);
+    margin: 0 var(--global-space-16);
+    font-size: var(--global-fontSizes-heading-sm);
+    font-weight: var(--global-fontWeights-heading-default);
+    color: var(--global-content-regular-default);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.kCVCfQ::before,
+.kCVCfQ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: var(--global-space-32);
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 350ms ease 0s;
+}
+
+.kCVCfQ::after {
+    right: 0px;
+    background-image: linear-gradient(to right, var(--background-color-transparent), var(--background-color-fill));
+    opacity: 0;
+}
+
+.hsTbSd::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    width: 100%;
+    border-bottom: var(--global-borderWidth-thin) solid var(--global-border-muted-default);
+}
+
+.kCVCfQ {
+    background-color: var(--background-color-fill);
+    overflow: auto hidden;
+    scrollbar-width: none;
+}
